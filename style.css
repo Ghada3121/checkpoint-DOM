@@ -1,0 +1,25 @@
+body {
+  
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .item {
+    margin-bottom: 20px;
+  }
+  .like-button {
+    cursor: pointer;
+  }
+  .liked {
+    color: red;
+  }
+  .items{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .items .item{
+      display: flex;
+      justify-content:space-evenly;  
+  }
+ 

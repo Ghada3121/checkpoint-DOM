@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop DOM</title>
+</head>
+<body>
+
+  
+
+  <div class="items "id="cart">
+    <div class="item" id="item1">
+      <span>Item 1</span>
+      <button class="quantity-less" onclick="lessQuantity('item1')">-</button>
+      <span id="quantity-item1">0</span>
+      <button class="quantity-more" onclick="moreQuantity('item1')">+</button>
+      <button class="like-button" onclick="toggleLike('item1')">❤️</button>
+      <button class="delete-button" onclick="deleteItem('item1')">Delete</button>
+      <span class="price">$10</span>
+    </div>
+    <div class="item" id="item2">
+      <span>Item 2</span>
+      <button class="quantity-less" onclick="lessQuantity('item2')">-</button>
+      <span id="quantity-item2">0</span>
+      <button class="quantity-more" onclick="moreQuantity('item2')">+</button>
+      <button class="like-button" onclick="toggleLike('item2')">❤️</button>
+      <button class="delete-button" onclick="deleteItem('item2')">Delete</button>
+      <span class="price">$15</span>
+    </div>
+    <div class="item" id="item3">
+      <span>Item 3</span>
+      <button class="quantity-less" onclick="lessQuantity('item3')">-</button>
+      <span id="quantity-item3">0</span>
+      <button class="quantity-more" onclick="moreQuantity('item3')">+</button>
+      <button class="like-button" onclick="toggleLike('item3')">❤️</button>
+      <button class="delete-button" onclick="deleteItem('item3')">Delete</button>
+      <span class="price">$20</span>
+    </div>
+  </div>
+
+  <div>
+    <h2>Total Price: <span id="total-price">$0</span></h2>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
